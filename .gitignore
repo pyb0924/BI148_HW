@@ -1,4 +1,4 @@
-*.ipynb_checkpointss
+*.ipynb_checkpoints
 *.aux
 *.log
 *.out
