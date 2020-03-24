@@ -541,7 +541,8 @@ int
 \end{Verbatim}
 \end{tcolorbox}
         
-    其原因可能是numpy.ndarray和Python内置格式中的数据类型不同，statistic对numpy.ndarray求均值时由于int32类型直接作了取整操作。
+    其原因可能是numpy.ndarray和Python内置格式中的数据类型不同，statistic对numpy.ndarray
+    求均值时由于int32类型直接作了取整操作。
 
     \hypertarget{ux5229ux7528pandas.dataframeux5c06xux8f6cux6362ux6210ux6570ux636eux8868dfux7136ux540eux5229ux7528ux6570ux636eux8868ux7684df.describeux7ed9ux51faxux7684ux63cfux8ff0ux6027ux7edfux8ba1ux5e76ux4e0escipy.stats.describexux7684ux8f93ux51faux7ed3ux679cux6bd4ux8f83-ux7279ux522bux5730ux6bd4ux8f83ux5176ux4e2dux7684ux65b9ux5deeux6807ux51c6ux5deeux5e76ux4e0enumpy.varxux6216numpy.stdx-ux6bd4ux8f83ux770bux770bux662fux5426ux4e00ux81f4ux5982ux679cux6709ux5deeux5f02ux8bf7ux89e3ux91ca}{%
 \paragraph{(3）利用pandas.DataFrame将x转换成数据表df，然后利用数据表的df.describe()给出x的描述性统计；
